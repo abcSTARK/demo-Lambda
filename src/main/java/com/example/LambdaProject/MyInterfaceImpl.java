@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.LambdaProject;
 
 public class MyInterfaceImpl implements MyInterface{
     @Override
@@ -11,7 +11,7 @@ public class MyInterfaceImpl implements MyInterface{
         MyInterface.super.myCalculation();
         System.out.println(" i am from child");
     }
-    public static void main(String[] args[]){
+    public static void main(String args[]){
         MyInterface m =new MyInterfaceImpl();
         m.myCalculation();
     }

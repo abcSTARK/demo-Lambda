@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.LambdaProject;
 
 public interface One {
     void display();
