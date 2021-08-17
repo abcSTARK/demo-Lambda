@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.LambdaProject;
 
 public class MyImplementation implements One,Two{
     @Override
