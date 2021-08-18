@@ -4,7 +4,7 @@ package com.example.functional;
 public interface MyFunctional {
     void data();
 
-    //voidmyNewMethod();
+    //void myNewMethod();
 
     default int add(int x){
         return 10;
